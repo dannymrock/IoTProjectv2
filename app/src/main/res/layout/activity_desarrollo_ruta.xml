@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DesarrolloRuta">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pause"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="370dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="103dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/stop"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="370dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/graph"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="620dp"
+        android:layout_marginTop="470dp"/>
+
+
+
+</RelativeLayout>
